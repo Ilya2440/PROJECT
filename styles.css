@@ -37,6 +37,7 @@ body {
   color: var(--main-text-color);
 }
 
+
 /*UTILITES*/
 h1,
 h2,
@@ -54,6 +55,13 @@ img {
 }
 .link {
   text-decoration: none;
+}
+
+.link:hover>svg*{
+fill: #2196f3 !important;
+
+
+
 }
 
 .list {
@@ -159,7 +167,7 @@ img {
   /* padding-top: 200px;
   padding-bottom: 200px; */
   background-color: var(--hero-down-bcg-color);
-  background-image: linear-gradient(to right, var(--hero-gradient-color), var(--hero-gradient-color)), url("../images/heroimg.jpg");
+  background-image: linear-gradient(to right, var(--hero-gradient-color), var(--hero-gradient-color)), url("./images/img/Img.hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -353,6 +361,7 @@ img {
   background-color: var(--hero-footer-bcg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  
 }
 .footer-container {
   display: flex;
